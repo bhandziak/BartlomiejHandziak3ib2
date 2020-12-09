@@ -1,0 +1,11 @@
+{
+  "name": "handziak3ib",
+  "version": "1.0.0",
+  "description": "mini projekt",
+  "main": "server01.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bartlomiej Handziak 3ib",
+  "license": "ISC"
+}

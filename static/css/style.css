@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 5vh 95vh;
+    gap: 0px 0px;
+    position: absolute;
+}
+
+.menu {
+    grid-area: 1 / 1 / 3 / 2;
+    background-color: blue;
+}
+
+.menu2 {
+    height: 5vh;
+    width: 100vw;
+
+    background-color: yellow;
+}
+
+.main {
+    grid-area: 2 / 1 / 3 / 2;
+    background-color: white;
+}
+
+.blocked {
+    background-color: red;
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+.links {
+    margin-left: 50px;
+    position: absolute;
+    top: 0.5vh;
+}
+.links2 {
+    margin-left: 50px;
+    position: absolute;
+    top: 5.5vh;
+}
+.menuLink {
+    font-size: 2.5vh;
+    margin-left: 20px;
+    color: white;
+}
+
+.menuLink2 {
+    font-size: 2.5vh;
+    margin-left: 20px;
+    color: black;
+}
+
+
+.bigText {
+    color: rgb(226, 226, 226);
+    text-align: center;
+    margin-top: 10px;
+    font-size: 125px;
+}
+
+
+
+label {
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+
+}
+
+input {
+    width: 300px;
+    height: 30px;
+}
+
+select {
+    width: 300px;
+    height: 30px;
+}
+
+.radio {
+    width: 30px;
+    height: 30px;
+}
+
+.labelRadio {
+    width: 20px;
+    margin-left: 5px;
+}
+
+.register {
+    height: 800px;
+    width: 500px;
+    margin-left: 37vw;
+}
+
+.checkbox {
+    width: 30px;
+    height: 30px;
+}
+
+.block {
+    margin-top: 20px;
+
+}
+
+.submit {
+    margin-top: 30px;
+    height: 50px;
+    width: 250px;
+}
+
+
+th {
+    font-size: 25px;
+    height: 100px;
+    width: 400px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: orange;
+    text-align: left;
+    color: white;
+}
+
+label {
+    font-size: 25px;
+}
+
+.gender {
+    width: 50vw;
+}
+
+.user {
+    width: 50vw;
+    color: white;
+}
+
+.inne {
+    width: 25vw;
+    color: white;
+}
+
+.SortingRadio {
+    color: white;
+}

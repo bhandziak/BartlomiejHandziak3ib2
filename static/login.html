@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="menu">
+            <div class="links">
+                <a href="/main" class="menuLink">main</a>
+                <a href="/register" class="menuLink">register</a>
+                <a href="/login" class="menuLink">login</a>
+                <a href="/admin" class="menuLink">admin</a>
+            </div>
+
+        </div>
+        <div class="main">
+            <div class="bigText">login page</div>
+            <form action="/login" method="POST" class="register">
+                <div class="block">
+                    <label>login:</label>
+                    <input type="username" name="login">
+                </div>
+                <div class="block">
+                    <label>password:</label>
+                    <input type="password" name="password">
+                </div>
+
+                <button type="submit" class="submit">Zaloguj</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

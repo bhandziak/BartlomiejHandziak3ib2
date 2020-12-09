@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="menu">
+            <div class="links">
+                <a href="/main" class="menuLink">main</a>
+                <a href="/register" class="menuLink">register</a>
+                <a href="/login" class="menuLink">login</a>
+                <a href="/admin" class="menuLink">admin</a>
+            </div>
+
+        </div>
+        <div class="main">
+            <div class="bigText">register page</div>
+            <form action="/register" method="POST" class="register">
+                <div class="block">
+                    <label>login:</label>
+                    <input type="username" name="login">
+                </div>
+                <div class="block">
+                    <label>password:</label>
+                    <input type="password" name="password">
+                </div>
+                <div class="block">
+                    <label>wiek:</label>
+                    <select name="age" id="age">
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                    </select>
+                </div>
+                <div class="block">
+                    <label>uczeń?:</label>
+                    <input type="checkbox" name="uczen" class="checkbox">
+                </div>
+                <div class="block">
+                    <label>płeć:</label>
+                    <input type="radio" name="plec" value="K" class="radio"><label class="labelRadio">K</label>
+                    <input type="radio" name="plec" value="M" class="radio"><label class="labelRadio">M</label>
+                </div>
+                <button type="submit" class="submit">submit</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
